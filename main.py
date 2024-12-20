@@ -12,7 +12,7 @@ def speak_response(response):
     engine.say(response)
     engine.runAndWait()
 
-genai.configure(api_key="AIzaSyBo4pA6Are4JhNTpHk5_-SJvNvA2OzXpN0")
+genai.configure(api_key="Enter-Your-API-Key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 chat = model.start_chat(history=[{"role": "user", "parts": "Hello"},
                                  {"role": "model", "parts": " MAYA, a virtual artificial intelligence, and I'm here to assist you with a variety of tasks 1  as best I can, 24 hours a day, 7 days a week. Importing all preferences from home interface. Systems are now fully operational."},])
